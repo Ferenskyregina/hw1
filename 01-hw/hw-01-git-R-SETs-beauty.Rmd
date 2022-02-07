@@ -238,7 +238,7 @@ You can find out more about the dataset by inspecting its documentation (which c
 
 3.  How many of the evaluations are for female professors? To do this you will need to count the frequencies of female indicator variable and display the results. The following code does exactly that.
 
-195
+195 answer 3
 
 ```{marginfigure}
 The two lines of code can be read as "Start with the beauty data frame, and then count the sum up the binary variable female, and display the results. The 'and then' in the previous sentence maps to %>%, the pipe operator, which takes what comes before it and plugs it in as the first argument of the function that comes after it."
@@ -289,7 +289,6 @@ beauty %>%
 
 1.  Based on the previous output we can easily identify the most common sex at each professor age, but the output is sorted by `n` (the frequencies) as opposed to being organized by the `female`. Build on the pipeline to arrange the results so that they're arranged by `female` first, and then `n`. This means you will need to add one more step to the pipeline, and you have two options: `arrange(age, n)` or `arrange(n, age)`. You should try both and decide which one organizes the output by species and then ranks the names in order of frequency for each species.
 
-Answer 4
 
 🧶 ✅ ⬆️ *Write your answer in your R Markdown document under Exercise 4. In this exercise you're asked to complete the code provided for you. You should insert the code in the code chunk provided for you, knit the document to see the output, and then write your narrative for the answer based on the output of this function, and knit again to see your narrative, code, and output in the resulting document. Then, commit your changes with a commit message that says "Completed Exercise 4", and push. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
 
